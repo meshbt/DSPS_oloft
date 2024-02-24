@@ -1,5 +1,11 @@
 # DSPS Submission For Team Kirk O'Loft
-This repo includes all the code needed to replicate the results. The required packages and version used are included in the `requirements.txt` file.
+This repo includes all the code needed to replicate the results. The required packages and version used are included in the `requirements.txt` file. To re-create our environment we have also included `env.yml` which should allow you to recreate the exact environment for replication.
+
+Using pip:
+    `pip install -r requirements.txt`
+
+Using conda/miniconda/mamba:
+    `conda env create --name DSPS --file env.yml`
 
 ## Training & Testing
 The code for training and conformal inference is included in the scripts folder with utilites defined in the OLOFT folder. To run everything as we did and replicate the results please run OLOFT.ipynb. To get the exact results make sure the versions of packages you have match ours. Use a GPU districbution of pytorch 2.
