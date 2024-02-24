@@ -1,0 +1,2 @@
+# Data
+We pre-process the data into standard resolutions. This data will be automatically downloaded for you when you run the scripts. Alternatively, you can grab the npy files needed from ![here](https://drive.google.com/drive/folders/1XnKkrRMxCykbFGbu-J0Prab4V8SdfWm2?usp=drive_link) and place them here.
