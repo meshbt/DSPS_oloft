@@ -8,7 +8,7 @@ Using conda/miniconda/mamba:
     `conda env create --name DSPS --file env.yml`
 
 ## Training & Testing
-The code for training and conformal inference is included in the scripts folder with utilites defined in the OLOFT folder. To run everything as we did and replicate the results please run OLOFT.ipynb. To get the exact results make sure the versions of packages you have match ours. Use a GPU districbution of pytorch 2.
+The code for training and conformal inference is included in the scripts folder with utilites defined in the OLOFT folder. To run everything as we did and replicate the results please run the `OLOFT.ipynb` notebook. To get the exact results make sure the versions of packages you have match ours. Use a GPU districbution of pytorch 2.
 
 ### Data
 We pre-process the data into standard resolutions. This data will be automatically downloaded for you when you run the scripts. Alternatively, you can grab the npy files needed from [here](https://drive.google.com/drive/folders/1XnKkrRMxCykbFGbu-J0Prab4V8SdfWm2?usp=drive_link) and place them in the data folder.
